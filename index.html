@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <h2 class="text-center  pt-5"> Highway Police Bangladesh</h2>
+        <p class="text-center  main-title"> সুশৃঙ্খল সুরক্ষিত মহাসড়ক</p>
+
+        <div class="container mt-">
+
+        </div>
+    </header>
+
+
+    <section class="container mt-2" id="section">
+        <nav class="navbar navbar-expand-lg bg-light nav-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Digital Checkpost</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse my-font" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">হোম</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link my-font" href="#">হেড কোয়াটার </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle my-font" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                সেবা সমূহ
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link my-font">Link</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="গাড়ির নম্বর দিন" aria-label="Search"
+                            id="car-input">
+                        <button onclick="loadData()" class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+    </section>
+
+
+    <section class="container" id="my-section">
+        <div class="mx-auto w-75">
+            <div class="card mx-auto" style="width: 18rem;">
+
+                <div class="card-body">
+                    <ol class="my-list">
+                        <li class="text-danger">Status:*****</li>
+                        <li>Name : ***** </li>
+                        <li> Model : ***** </li>
+                        <li> Color: ***** </li>
+                        <li>Weight:***** </li>
+                        <li>Owner Name : ****** </li>
+                        <li>Address : ******</li>
+                        <li class="text-danger my-font"> ব্যবস্থা : ****** </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class=" bg-black pt-2">
+        <h4 class="text-center text-white">Web Site Demo</h4>
+        <h5 class="text-center text-white my-font">মহাসড়ক এর নিরাপত্তা ও আইন-শৃঙ্খলা রক্ষায় প্রযুক্তির ব্যাবহার</h5>
+        <h4 class="text-center text-white my-font">&#169; Team Robotics MTSC</h4>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+    "status": "Normal",
+    "name": "Toyota",
+    "model": "Premio",
+    "color": "Black",
+    "weight": 1200,
+    "user": {
+        "name": "অধ্যক্ষ সিরাজুল ইসলাম",
+        "address": "চাঁদপুর"
+    },
+    "action": "স্বাভাবিক অবস্থায় আছে যেতে পারবে ",
+    "number": 1804
+}

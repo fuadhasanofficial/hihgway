@@ -1,0 +1,14 @@
+{
+    "status": "Something Else",
+    "name": "Suzuki",
+    "model": "Alto 800",
+    "color": "Red",
+    "weight": 1100,
+    "user": {
+        "name": "সিদ্দিক হোসেন",
+        "address": "বরিশাল",
+        "phone": "01xxxxxxxx"
+    },
+    "action": "গাড়িটি অপরাধমুলক কর্মকান্ডে ব্যাবহার হয়েছে বলে অভিযোগ আছে অভিযোগ যাচাই করে যথাযথ ব্যাবস্থা নিন ",
+    "number": 1802
+}
